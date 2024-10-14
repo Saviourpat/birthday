@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday message</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Birthday Wishes</h1>
+        <img src="birthday-image.jpg" alt="Birthday Image" class="birthday-image">
+        <form action=" action="https://formspree.io/f/mwpkkojl"
+        method="POST" id="birthday-form">
+            <label for="name">Recipient's Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Recipient's Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Birthday Message:</label>
+            <textarea id="message" required></textarea>
+
+            <button id="send-btn">Send Wishes</button>
+        </form>
+        <div id="status"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
